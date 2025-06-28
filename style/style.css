@@ -54,3 +54,15 @@
     }
 }
 
+.create-Btn-form:hover{
+    background-color: rgb(42, 233, 17);
+    color: white;
+}
+.close-Btn-form:hover{
+    background-color: rgb(238, 30, 30);
+    color: white;
+}
+.delete-btn-main:hover{
+    background-color: rgb(238, 30, 30);
+    color: white;
+}

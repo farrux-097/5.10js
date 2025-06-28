@@ -25,7 +25,7 @@ function createCard(data){
             <h3>${car.price}</h3>
             <p>${car.brand}</p>
             <p>${car.color}</p>
-            <button data-id=${car.id} name="delete-btn">delete</button>
+            <button data-id=${car.id} class = "delete-btn-main border-[1px] rounded-[20px] bg-white shadow-md p-[5px]" name="delete-btn">delete</button>
         `
         fr.appendChild(div)
     })
@@ -77,8 +77,8 @@ function handMoreBtn(id){
                 <input required class="input-brand outline-none w-[100%] mt-[10px] border-[1px] border-black-500 rounded-[20px] shadow-md p-[5px] "   type="text" placeholder="brand">
                 <input required class="input-color outline-none w-[100%] mt-[10px] border-[1px] border-black-500 rounded-[20px] shadow-md p-[5px] "   type="text" placeholder="color">  
                 <div class = "flex gap-[10px]">
-                <button class = "mt-[20px] border-[1px] border-black-500 p-[10px] rounded-[20px] bg-white">Create</button>
-                <button onclick = "CloseBtn()" class = " hover:bg-red-500 mt-[20px] border-[1px] border-black-500 p-[10px] rounded-[20px] bg-white">Cancel</button>
+                <button class = "create-Btn-form mt-[20px] border-[1px] border-black-500 p-[10px] rounded-[20px] bg-white">Create</button>
+                <button onclick = "CloseBtn()" class = " close-Btn-form  mt-[20px] border-[1px] border-black-500 p-[10px] rounded-[20px] bg-white">Cancel</button>
                 </div>
                 </form>
     </div>
